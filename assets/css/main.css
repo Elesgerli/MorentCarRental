@@ -8,3 +8,96 @@ a {
 
 ul {
   list-style: none; }
+
+.header {
+  width: 1440px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  background: #FFF; }
+  .header__left {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header__left__loqo {
+      margin-left: 60px;
+      color: #3563E9;
+      width: 148px;
+      height: 44px;
+      font-family: Plus Jakarta Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700; }
+    .header__left__search {
+      position: relative;
+      width: 492px;
+      height: 44px;
+      border-radius: 70px;
+      border: 1px solid rgba(195, 212, 233, 0.4);
+      background: #FFF;
+      margin-left: 64px; }
+      .header__left__search__inside {
+        position: relative;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .header__left__search__inside__logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px 0px 10px 20px;
+          width: 24px;
+          height: 24px; }
+        .header__left__search__inside__text {
+          left: 64px;
+          color: #596780;
+          text-align: center;
+          position: absolute;
+          font-family: Plus Jakarta Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500; }
+        .header__left__search__inside__filter {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          right: 20px; }
+  .header__right {
+    width: 236px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 32px; }
+    .header__right__firsticon, .header__right__secondicon, .header__right__thirdicon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      background-color: #C3D4E966;
+      height: 44px;
+      border-radius: 90px;
+      border: 1px solid rgba(195, 212, 233, 0.4);
+      opacity: 0.8; }
+      .header__right__firsticon a, .header__right__secondicon a, .header__right__thirdicon a {
+        color: #596780; }
+    .header__right__secondicon {
+      position: relative; }
+      .header__right__secondicon__redicon {
+        color: #FF4423;
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        right: 7px;
+        margin-bottom: 5px;
+        bottom: 31px; }
+    .header__right__image {
+      width: 44px;
+      height: 44px;
+      border-radius: 90px; }
