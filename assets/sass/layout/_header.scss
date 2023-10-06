@@ -1,2 +1,125 @@
 @import '../utils/mixin';
 @import '../utils/variables';
+
+.header {
+    width: 1440px;
+    height: 124px;
+    @include displeyspacebetween;
+    border: 1px solid rgba(195, 212, 233, 0.40);
+    background: #FFF;
+
+    &__left {
+        @include displeycenter;
+
+
+        &__loqo {
+            margin-left: 60px;
+            color: #3563E9;
+            width: 148px;
+            height: 44px;
+            font-family: Plus Jakarta Sans;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        &__search {
+            position: relative;
+            width: 492px;
+            height: 44px;
+            border-radius: 70px;
+            border: 1px solid rgba(195, 212, 233, 0.40);
+            background: #FFF;
+
+            margin-left: 64px;
+
+            &__inside {
+                position: relative;
+
+                height: 44px;
+                @include displeyspacebetween;
+
+                &__logo {
+                    @include displeycenter;
+                    margin: 10px 0px 10px 20px;
+                    width: 24px;
+                    height: 24px;
+
+
+
+                }
+
+                &__text {
+
+                    left: 64px;
+                    color: #596780;
+                    text-align: center;
+                    position: absolute;
+                    font-family: Plus Jakarta Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+                &__filter {
+                    position: absolute;
+                    @include displeycenter;
+                    right: 20px;
+                }
+
+            }
+        }
+    }
+
+    &__right {
+        width: 236px;
+        height: 44px;
+        position: relative;
+        @include displeycenter;
+        gap: 20px;
+        margin-right: 32px;
+
+        &__firsticon {
+            @include displeycenter;
+            width: 44px;
+
+            a {
+                color: #596780;
+            }
+
+            background-color: #C3D4E966;
+            height: 44px;
+            border-radius: 90px;
+            border: 1px solid rgba(195, 212, 233, 0.40);
+            opacity: 0.8;
+        }
+
+        &__secondicon {
+            @extend .header__right__firsticon;
+
+            position: relative;
+
+            &__redicon {
+                color: #FF4423;
+                position: absolute;
+                width: 11px;
+                height: 11px;
+                
+                right: 7px;
+                margin-bottom: 5px;
+                bottom: 31px;
+            }
+        }
+
+        &__thirdicon {
+            @extend .header__right__firsticon;
+        }
+
+
+        &__image {
+            width: 44px;
+            height: 44px;
+            border-radius: 90px;
+        }
+    }
+}
