@@ -47,7 +47,7 @@
             @include displeyspacebetween;
 
             position: absolute;
-            left: 804px;
+         right: 3%;
 
 
             top: 80px;
@@ -117,13 +117,17 @@
 
     &__last {
 
+        width: 100%;
         @include displeyspacebetween;
-        gap: 480px;
-        margin-top: 14px;
+    
+        position: relative;
+        margin-top: 2%;
 
         &__morent {
+            position: absolute;
             width: 292px;
             height: 24px;
+            left: 4%;
             font-size: 16px;
             color: $colorblac;
 
@@ -136,6 +140,8 @@
             text-align: right;
             gap: 40px;
 
+            position: absolute;
+            right: 5%;
             width: 320px;
 
             h4 a {
