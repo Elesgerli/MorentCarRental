@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, div, i, a, button {
       align-items: center;
       justify-content: space-between;
       position: absolute;
-      left: 804px;
+      right: 3%;
       top: 80px; }
       .footer__first__right__ul1, .footer__first__right__ul2, .footer__first__right__ul3 {
         display: flex;
@@ -89,14 +89,17 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, div, i, a, button {
       width: 92%;
       height: 1px; }
   .footer__last {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 480px;
-    margin-top: 14px; }
+    position: relative;
+    margin-top: 2%; }
     .footer__last__morent {
+      position: absolute;
       width: 292px;
       height: 24px;
+      left: 4%;
       font-size: 16px;
       color: #1A202C; }
     .footer__last__privacy {
@@ -104,6 +107,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, div, i, a, button {
       justify-content: end;
       text-align: right;
       gap: 40px;
+      position: absolute;
+      right: 5%;
       width: 320px; }
       .footer__last__privacy h4 a {
         color: #1A202C;
