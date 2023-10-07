@@ -9,14 +9,156 @@ a {
 ul {
   list-style: none; }
 
+* {
+  font-family: " Plus Jakarta Sans"; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li, span, div, i, a, button {
+  font-family: " Plus Jakarta Sans"; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  height: 480px;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__first {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+    position: relative; }
+    .footer__first__left {
+      width: 292px;
+      position: absolute;
+      left: 60px;
+      top: 80px;
+      height: 108px; }
+      .footer__first__left h3 {
+        font-size: 32px;
+        padding-bottom: 16px;
+        color: #3563E9; }
+      .footer__first__left p {
+        width: 292px;
+        font-size: 16px;
+        color: rgba(19, 19, 19, 0.6); }
+    .footer__first__right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      left: 804px;
+      top: 80px; }
+      .footer__first__right__ul1, .footer__first__right__ul2, .footer__first__right__ul3 {
+        display: flex;
+        width: 140px;
+        height: 188px;
+        flex-direction: column;
+        font-size: 16px;
+        color: rgba(19, 19, 19, 0.6);
+        gap: 24px;
+        align-items: start;
+        justify-content: center; }
+        .footer__first__right__ul1 h3 a, .footer__first__right__ul2 h3 a, .footer__first__right__ul3 h3 a {
+          font-size: 20px;
+          color: #1A202C; }
+        .footer__first__right__ul1 ul li a, .footer__first__right__ul2 ul li a, .footer__first__right__ul3 ul li a {
+          display: flex;
+          align-items: start;
+          margin-bottom: 12px;
+          color: rgba(19, 19, 19, 0.6);
+          font-size: 16px;
+          transition: 0.5s; }
+        .footer__first__right__ul1 ul li a:hover, .footer__first__right__ul2 ul li a:hover, .footer__first__right__ul3 ul li a:hover {
+          text-decoration: underline; }
+      .footer__first__right__ul3 {
+        width: 90px; }
+  .footer__middle {
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer__middle__line {
+      color: rgba(19, 19, 19, 0.6);
+      background-color: rgba(19, 19, 19, 0.6);
+      width: 92%;
+      height: 1px; }
+  .footer__last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 480px;
+    margin-top: 14px; }
+    .footer__last__morent {
+      width: 292px;
+      height: 24px;
+      font-size: 16px;
+      color: #1A202C; }
+    .footer__last__privacy {
+      display: flex;
+      justify-content: end;
+      text-align: right;
+      gap: 40px;
+      width: 320px; }
+      .footer__last__privacy h4 a {
+        color: #1A202C;
+        font-size: 15px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+* {
+  font-family: " Plus Jakarta Sans"; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li, span, div, i, a, button {
+  font-family: " Plus Jakarta Sans"; }
+
 .header {
-  width: 1440px;
+  width: 100%;
   height: 124px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid rgba(195, 212, 233, 0.4);
-  background: #FFF; }
+  background: #FFFFFF; }
   .header__left {
     display: flex;
     justify-content: center;
@@ -26,7 +168,6 @@ ul {
       color: #3563E9;
       width: 148px;
       height: 44px;
-      font-family: Plus Jakarta Sans;
       font-size: 32px;
       font-style: normal;
       font-weight: 700; }
@@ -36,7 +177,7 @@ ul {
       height: 44px;
       border-radius: 70px;
       border: 1px solid rgba(195, 212, 233, 0.4);
-      background: #FFF;
+      background: #FFFFFF;
       margin-left: 64px; }
       .header__left__search__inside {
         position: relative;
@@ -56,7 +197,6 @@ ul {
           color: #596780;
           text-align: center;
           position: absolute;
-          font-family: Plus Jakarta Sans;
           font-size: 14px;
           font-style: normal;
           font-weight: 500; }
