@@ -1,12 +1,73 @@
-@mixin displeycenter{
+@import '../utils/color';
+
+@mixin displeycenter {
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}   
+
+}
 
 @mixin displeyspacebetween {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+@mixin allbutton {
+
+    display: flex;
+    width: 116px;
+    height: 44px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: $colorblue;
+
+}
+
+@mixin buttoninside {
+
+    display: flex;
+    width: 76px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: $colorF;
+    text-align: center;
+    font-size: 16px;
+ 
+   
+
+}
+
+@mixin showbutton {
+
+    display: flex;
+    width: 156px;
+    height: 44px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: $colorblue;
+
+}
+
+@mixin buttoninside {
+
+    display: flex;
+    width: 116px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: $colorF;
+    text-align: center;
+    font-size: 16px;
+ 
+   
+
 }

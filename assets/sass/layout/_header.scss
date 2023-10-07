@@ -1,12 +1,14 @@
 @import '../utils/mixin';
 @import '../utils/variables';
+@import '../base/typography';
+@import '../utils/color';
 
 .header {
-    width: 1440px;
+    width: 100%;
     height: 124px;
     @include displeyspacebetween;
-    border: 1px solid rgba(195, 212, 233, 0.40);
-    background: #FFF;
+    border: 1px solid $colorrgb;
+    background:$colorF;
 
     &__left {
         @include displeycenter;
@@ -14,10 +16,10 @@
 
         &__loqo {
             margin-left: 60px;
-            color: #3563E9;
+            color: $colorblue;
             width: 148px;
             height: 44px;
-            font-family: Plus Jakarta Sans;
+           
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
@@ -28,8 +30,8 @@
             width: 492px;
             height: 44px;
             border-radius: 70px;
-            border: 1px solid rgba(195, 212, 233, 0.40);
-            background: #FFF;
+            border: 1px solid $colorrgb;
+            background: $colorF;
 
             margin-left: 64px;
 
@@ -52,10 +54,10 @@
                 &__text {
 
                     left: 64px;
-                    color: #596780;
+                    color: $colorgre;
                     text-align: center;
                     position: absolute;
-                    font-family: Plus Jakarta Sans;
+                 
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 500;
@@ -84,13 +86,13 @@
             width: 44px;
 
             a {
-                color: #596780;
+                color: $colorgre;
             }
 
-            background-color: #C3D4E966;
+            background-color: $colorC3;
             height: 44px;
             border-radius: 90px;
-            border: 1px solid rgba(195, 212, 233, 0.40);
+            border: 1px solid $colorrgb;
             opacity: 0.8;
         }
 
@@ -100,7 +102,7 @@
             position: relative;
 
             &__redicon {
-                color: #FF4423;
+                color: $colorRed;
                 position: absolute;
                 width: 11px;
                 height: 11px;
