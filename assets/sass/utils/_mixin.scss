@@ -1,5 +1,12 @@
-@mixin creatDispley{
+@mixin displeycenter{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}   
+
+@mixin displeyspacebetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
