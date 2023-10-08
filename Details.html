@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/main.css">  
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,13 +14,16 @@
 
 <body>
 
-    
     <header class="header">
         <div class="header__left">
+            <div class="mobileversion">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="header__left__loqo">MORENT</div>
             <div class="header__left__search">
                 <a href="" class="header__left__search__inside">
-                    <div class="header__left__search__inside__logo"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="header__left__search__inside__logo"><i
+                            class="fa-solid fa-magnifying-glass searchicon"></i></div>
                     <div class="header__left__search__inside__text"> <span> Search something here</span></div>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="header__left__search__inside__filter">
@@ -50,17 +53,20 @@
         </div>
         <div class="header__right">
 
-            <div class="header__right__firsticon"> <a href=""><i class="fa-solid fa-heart "></i></a>
+            <div class="header__right__firsticon frsticon"> <a href="#"><i class="fa-solid fa-heart "></i></a>
             </div>
-            <div class="header__right__secondicon"> <a href=""><i class="fa-solid fa-bell "></i> <i class="fa-solid fa-circle header__right__secondicon__redicon"  ></i></a></div>
-            <div class="header__right__thirdicon"> <a href=""><i class="fa-solid fa-gear "></i></a>
+            <div class="header__right__secondicon scondicon"> <a href="#"><i class="fa-solid fa-bell "></i> <i
+                        class="fa-solid fa-circle redicon"></i></a></div>
+            <div class="header__right__thirdicon thirdicon"> <a href="#"><i class="fa-solid fa-gear "></i></a>
             </div>
             <img src="assets/image/header image.png" alt="header image" class="header__right__image">
 
         </div>
     </header>
+
+
     <main class="details__main">
-        <div class="details__main__left">
+        <div class="details__main__left si">
             <div class="details__main__left__first">
                 <ul>
                     <span class="list__type">Type</span>
@@ -82,7 +88,7 @@
                 </ul>
             </div>
             <div class="details__main__left__last">
-                <label for="price">price</label>
+                <label for="price">Price</label>
                 <input type="range" id="price">
                 <p>Max. $100.000</p>
             </div>
@@ -98,12 +104,15 @@
                             <div class="right__header__image__middle">
                                 Safety and comfort while driving a futuristic and elegant sports car
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="right__header__images">
-                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y=" alt="">
-                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y=" alt="">
-                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y=" alt="">                        
+                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y="
+                            alt="">
+                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y="
+                            alt="">
+                        <img src="https://media.istockphoto.com/id/1157655660/photo/generic-red-suv-on-a-white-background-side-view.jpg?s=612x612&w=0&k=20&c=ecrvXZhimUHnYES-kx7L5b-TDtRU5kAFPpNm0ZtAp1Y="
+                            alt="">
                     </div>
                 </div>
                 <div class="right__header__content">
@@ -125,7 +134,7 @@
                     </div>
                     <div class="right__header__content__middle">
                         <div class="right__header__content__middle__first">
-                            <p>NISMO has become the embodiment of Nissan's outstanding performance, 
+                            <p>NISMO has become the embodiment of Nissan's outstanding performance,
                                 inspired by the most unforgiving proving ground, the "race track".
                             </p>
                         </div>
@@ -173,19 +182,24 @@
                 <div class="right__reviews__content">
                     <div class="right__reviews__content__1">
                         <div class="right__reviews__content__1__img">
-                            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg">
+                            <img
+                                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg">
                         </div>
                         <div class="right__reviews__content__yazi">
                             <h3>Alex Stanson</h3>
                             <p>CEO at Bukalapak</p> <br>
                             <div>
                                 <p>
-                                    We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.
+                                    We are very happy with the service from the MORENT App. Morent has a low price and
+                                    also a large variety of cars with good and comfortable facilities. In addition, the
+                                    service provided by the officers is also very friendly and very polite.
                                 </p>
                             </div>
                         </div>
                         <div class="right__reviews__content__1__icon">
-                            <div><p>21 July 2022</p></div>
+                            <div>
+                                <p>21 July 2022</p>
+                            </div>
                             <div class="right__reviews__content__1__icon__all">
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
@@ -193,26 +207,31 @@
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
                                 <div><i class="fa-regular fa-star"></i></div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
                 <div class="right__reviews__content">
                     <div class="right__reviews__content__1">
                         <div class="right__reviews__content__1__img">
-                            <img src="https://www.perfocal.com/blog/content/images/2021/01/Perfocal_17-11-2019_TYWFAQ_82_standard-3.jpg">
+                            <img
+                                src="https://www.perfocal.com/blog/content/images/2021/01/Perfocal_17-11-2019_TYWFAQ_82_standard-3.jpg">
                         </div>
                         <div class="right__reviews__content__yazi">
                             <h3>Alex Stanson</h3>
                             <p>CEO at Bukalapak</p> <br>
                             <div>
                                 <p>
-                                    We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.
+                                    We are very happy with the service from the MORENT App. Morent has a low price and
+                                    also a large variety of cars with good and comfortable facilities. In addition, the
+                                    service provided by the officers is also very friendly and very polite.
                                 </p>
                             </div>
                         </div>
                         <div class="right__reviews__content__1__icon">
-                            <div><p>21 July 2022</p></div>
+                            <div>
+                                <p>21 July 2022</p>
+                            </div>
                             <div class="right__reviews__content__1__icon__all">
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
@@ -220,14 +239,686 @@
                                 <div><i class="fa-solid fa-star" style="color: #FBAD39;"></i></div>
                                 <div><i class="fa-regular fa-star"></i></div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="section">
+                    <div class="section__top">
+                        <p class="section__top__left">Popular Car</p>
+                        <p class="section__top__right">
+                            <a href="#">View All</a>
+                        </p>
+                    </div>
+                    <div class="section__bottom">
+
+                        <div class="section__bottom__container">
+                            <div class="section__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                           
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="section2">
+                    <div class="section2__top">
+                        <p class="section2__top__left"> Recomendation Car</p>
+                        <p class="section2__top__right">
+                            <a href="#">View All</a>
+                        </p>
+                    </div>
+                    <div class="section2__bottom">
+
+                        <div class="section2__bottom__container">
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                           
+                           
+
+
+                        </div>
+                        <div class="section2__bottom__container">
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                           
+                           
+
+
+                        </div>
+                        <div class="section2__bottom__container">
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="section2__bottom__container__row">
+                                <div class="col-4  col4">
+                                    <h4>Nissan GT - R</h4>
+                                    <p class="firstp">Sport</p>
+
+                                    <div class="wrapper">
+
+                                        <i class="fa-solid fa-heart" style="color: #f20202;"></i>
+                                    </div>
+                                    <img src="assets/image/nissan gtr.png" alt="gtr" class="carimg">
+                                    <div class="icons">
+                                        <div>
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>80L</p>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
+                                                <path
+                                                    d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
+                                                    fill="#90A3BF" />
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                            </svg>
+                                            <p>Manual</p>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa-solid fa-user-group"></i>
+                                            <p>2 People</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttonrent">
+                                        <div>
+                                            <p>$80.00 / <small>day</small></p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="rentbuttons"> <span class="insides"> RENT NOW</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                           
+                           
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+         
+
+
         </div>
+
+
     </main>
-  <footer>
+    <footer>
         <div class="footer">
             <div class="footer__first">
                 <div class="footer__first__left">
@@ -265,7 +956,7 @@
                 </div>
             </div>
 
-            
+
             <div class="footer__middle">
                 <div class="footer__middle__line">
 
@@ -276,7 +967,7 @@
                     <p>©2022 MORENT. All rights reserved</p>
                 </div>
                 <div class="footer__last__privacy">
-                    <h4 ><a href="#">Privacy & Policy</a></h4>
+                    <h4><a href="#">Privacy & Policy</a></h4>
                     <h4><a href="#">Terms & Condition</a></h4>
                 </div>
             </div>

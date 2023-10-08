@@ -1,2 +1,106 @@
+@import '../utils/color';
 @import '../utils/mixin';
-@import '../utils/variables';
+@import '../components/button';
+
+
+.main {
+
+
+    &__section2 {
+        margin-top: 32px;
+        width: 100%;
+        height: auto;
+
+        &__container {
+            margin: 0 auto;
+            width: 90%;
+            @include displeyspacebetween;
+
+
+            &__row {
+                width: 100%;
+
+
+                flex-wrap: nowrap;
+                gap: 32px;
+
+
+                .section2icon {
+                    @include displeycenter;
+
+                    .col2 {
+                        position: absolute;
+                        @include displeycenter;
+
+                        color: white;
+                        width: 60px;
+                        height: 60px;
+                        background-color: #3563E9;
+                        border-radius: 10px;
+                        border: none;
+
+                    }
+
+                }
+
+                &__col5 {
+
+                    width: 582px;
+                    height: 136px;
+                    background-color: $colorF;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    justify-content: center;
+                    border: none;
+                    background-color: $colorF;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+                    .selectdiv {
+                        margin-left: 48px;
+                        display: flex;
+                        gap: 48px;
+                        margin-top: 16px;
+
+
+                        .selects {
+
+
+                            p {
+                                display: flex;
+                                width: 77px;
+                                height: 20px;
+                                margin-bottom: 8px;
+                                font-size: 16px;
+                                color: $colorblac;
+                            }
+
+                            select {
+                                outline: none;
+                                border: none;
+                                width: 104px;
+                                height: 20px;
+                                color: $cardspcolors;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    .selecimage {
+                        margin-left: 48px;
+                        display: flex;
+                        gap: 10px;
+                        margin-bottom: 5px;
+                        align-items: center;
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+}
+
