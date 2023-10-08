@@ -1,3 +1,29 @@
 @import '../utils/color';
 @import '../utils/mixin';
 
+.buttonsecondd{
+   @include snbutton;
+    .buttoninside2{
+        @include buttoninside;
+    }
+}
+.buttonfirst{
+    @include allbutton;
+    .buttoninside{
+        @include buttoninside;
+    }
+}
+
+.rentbuttons{
+    @include allbutton;
+    .insides{
+        @include buttoninside;
+    }
+}
+
+.showbutton{
+    @include showbutton;
+    .showinside{
+        @include showbuttoninside;
+    }
+}
