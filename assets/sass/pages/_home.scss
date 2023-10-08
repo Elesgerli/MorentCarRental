@@ -75,7 +75,7 @@
                             font-size: 16px;
                         }
 
-                  
+
 
 
 
@@ -112,17 +112,18 @@
                 font-size: 16px;
             }
 
-            
-                right {
 
-                    width: 64px;
-                    height: 24px;
-                    font-size: 16px;
-                    a{
-                        color: $colorblue;
-                    }
+            right {
+
+                width: 64px;
+                height: 24px;
+                font-size: 16px;
+
+                a {
+                    color: $colorblue;
                 }
-            
+            }
+
         }
 
         &__bottom {
@@ -231,10 +232,10 @@
                                 }
                             }
 
-                    
+
                         }
 
-                     
+
                     }
                 }
             }
@@ -364,10 +365,10 @@
                                 }
                             }
 
-             
+
                         }
 
-          
+
                     }
                 }
             }
@@ -479,39 +480,80 @@
                                 }
                             }
 
-                       
+
                         }
 
-        
+
                     }
                 }
             }
         }
 
         &__bottom2 {
-           display: flex;
-           justify-content: end;
-          align-items: center;
-          width: 95%;
-         
-             &__inside{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 95%;
+
+            &__inside {
                 margin: 3% 0;
                 width: 734px;
                 height: 44px;
                 @include displeyspacebetween;
-              
 
-            &__right {
-                font-size: 14px;
-                color: $colorgre;
-                width: 140px;
-                height: 44px;
-                @include displeycenter;
+
+                &__right {
+                    font-size: 14px;
+                    color: $colorgre;
+                    width: 140px;
+                    height: 44px;
+                    @include displeycenter;
+                }
             }
-             }
 
-          
+
         }
     }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .rightcarsphoto {
+        display: none;
+    }
+
+    .main__section2__container {
+        gap: 35px;
+        flex-direction: column;
+    }
+    .main__section3__bottom{
+        overflow: scroll;
+        width: 100%;
+    }
+
    
+
+    .main__section4__middle{
+    width: 100%;
+  
+    }
+    .main__section4__middle__container{
+        
+        flex-wrap: wrap;
+      margin-bottom: 1200px;
+      
+    }
+    .main__section4__bottom{
+        width: 100%;
+    }
+    .main__section4__bottom__container{
+        margin-bottom: 1200px;
+       
+        flex-wrap: wrap;
+
+    }
 }

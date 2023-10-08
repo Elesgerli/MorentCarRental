@@ -152,3 +152,32 @@
         }
     }
 }
+
+@media only screen and (max-width: 767px) {
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+
+    .footer__first{
+      
+        display: flex;
+      
+    
+      
+        margin-bottom: 50px;
+
+
+        .footer__first__left{
+            flex-direction: column;
+        }
+        .footer__first__left{
+            display: flex;
+            position: absolute;
+        }
+    }
+}
+
+
+}
