@@ -17,7 +17,7 @@
 @mixin allbutton {
 
     display: flex;
-    width: 116px;
+    width: 130px;
     height: 44px;
     padding: 0px 20px;
     justify-content: center;
@@ -31,10 +31,11 @@
 @mixin buttoninside {
 
     display: flex;
-    width: 76px;
+    width: 120px;
     height: 24px;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: $colorF;
     text-align: center;
     font-size: 16px;
@@ -57,7 +58,7 @@
 
 }
 
-@mixin buttoninside {
+@mixin showbuttoninside {
 
     display: flex;
     width: 116px;
@@ -69,5 +70,19 @@
     font-size: 16px;
  
    
+
+}
+
+@mixin snbutton {
+
+    display: flex;
+    width: 130px;
+    height: 44px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color:#54A6FF;
 
 }
