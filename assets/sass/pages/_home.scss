@@ -1,0 +1,559 @@
+@import '../utils/color';
+@import '../utils/mixin';
+@import '../components/button';
+@import '../layout/form';
+
+.main {
+
+    width: 100%;
+    height: 100%;
+
+    &__section1 {
+        margin-top: 32px;
+        width: 100%;
+        height: auto;
+
+        &__container {
+            margin: 0 auto;
+            width: 90%;
+
+            &__row {
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 32px;
+
+
+                &__col6 {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    height: 360px;
+                    position: relative;
+
+
+
+                    .left {
+                        right: 2%;
+                        position: absolute;
+                        background-color: #54A6FF;
+                        z-index: -1;
+                        border-radius: 10px;
+
+                        width: 100%;
+                        height: 100%;
+
+                    }
+
+                    .right {
+
+                        @extend .left;
+                        background-color: $colorblue;
+
+                    }
+
+
+                    h3 {
+
+                        width: 272px;
+                        font-size: 32px;
+                        color: $colorF;
+
+                    }
+
+                    .about {
+
+                        position: absolute;
+                        left: 20px;
+                        top: 20px;
+
+                        p {
+                            margin: 20px 0;
+
+                            color: $colorF;
+                            width: 284px;
+                            font-size: 16px;
+                        }
+
+
+
+
+
+
+                    }
+
+
+
+
+
+                }
+
+
+
+
+            }
+        }
+    }
+
+
+    &__section3 {
+
+        width: 90%;
+        height: auto;
+        margin: 4%;
+
+        &__top {
+            @include displeyspacebetween;
+
+            &__left {
+                width: 92px;
+                height: 24px;
+                color: $cardspcolors;
+                font-size: 16px;
+            }
+
+
+            right {
+
+                width: 64px;
+                height: 24px;
+                font-size: 16px;
+
+                a {
+                    color: $colorblue;
+                }
+            }
+
+        }
+
+        &__bottom {
+            margin: 3% 0;
+            width: 80%;
+
+
+            &__container {
+                width: 80%;
+                display: flex;
+
+
+                gap: 32px;
+                height: 388px;
+
+
+                &__row {
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    gap: 32px;
+
+
+                    .col4 {
+
+                        display: flex;
+
+                        width: 290px;
+                        flex-direction: column;
+                        position: relative;
+                        height: 350px;
+                        border-radius: 10px;
+                        background-color: $colorF;
+
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+                        border: none;
+
+
+                        .wrapper {
+                            position: absolute;
+                            top: 3%;
+                            right: 5%;
+                            font-size: 24px;
+                        }
+
+
+                        h4 {
+                            position: absolute;
+                            color: $colorblac;
+
+                            width: 128px;
+                            height: 24px;
+                            top: 3%;
+                            left: 3%;
+
+                            font-size: 20px;
+                        }
+
+                        .firstp {
+                            width: 128px;
+                            height: 20px;
+                            font-size: 14px;
+                            color: $cardspcolors;
+                            position: absolute;
+                            top: 10%;
+                            left: 3%;
+                        }
+
+                        img {
+
+                            padding-left: 24px;
+
+                            position: absolute;
+                            width: 228px;
+                            top: 30%;
+                            left: 9%;
+
+                            height: 72px;
+                        }
+
+                        .buttonrent {
+                            display: flex;
+
+                            position: absolute;
+                            height: 50px;
+                            align-items: center;
+
+
+                            gap: 35px;
+                            left: 5%;
+                            top: 78%;
+
+                            p {
+                                display: flex;
+
+                                align-items: center;
+                                justify-content: center;
+                                height: 44px;
+                                color: $colorblac;
+                                font-size: 20px;
+                                gap: 5px;
+
+                                small {
+                                    color: $colorgre
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    &__section4 {
+        width: 90%;
+        height: auto;
+        margin: 4%;
+
+        &__top {
+            display: flex;
+            align-items: center;
+
+            &__left {
+                font-size: 16px;
+                width: 156px;
+                height: 24px;
+                color: $cardspcolors;
+            }
+        }
+
+        &__middle {
+            margin: 3% 0;
+            width: 80%;
+
+            &__container {
+                width: 80%;
+                display: flex;
+
+
+                gap: 32px;
+                height: 388px;
+
+
+                &__row {
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    gap: 32px;
+
+
+                    .col4 {
+
+                        display: flex;
+
+                        width: 290px;
+                        flex-direction: column;
+                        position: relative;
+                        height: 350px;
+                        border-radius: 10px;
+                        background-color: $colorF;
+
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+                        border: none;
+
+
+                        .wrapper {
+                            position: absolute;
+                            top: 3%;
+                            right: 5%;
+                            font-size: 24px;
+                        }
+
+
+                        h4 {
+                            position: absolute;
+                            color: $colorblac;
+
+                            width: 128px;
+                            height: 24px;
+                            top: 3%;
+                            left: 3%;
+
+                            font-size: 20px;
+                        }
+
+                        .firstp {
+                            width: 128px;
+                            height: 20px;
+                            font-size: 14px;
+                            color: $cardspcolors;
+                            position: absolute;
+                            top: 10%;
+                            left: 3%;
+                        }
+
+                        img {
+
+                            padding-left: 24px;
+
+                            position: absolute;
+                            width: 228px;
+                            top: 30%;
+                            left: 9%;
+
+                            height: 72px;
+                        }
+
+                        .buttonrent {
+                            display: flex;
+
+                            position: absolute;
+                            height: 50px;
+                            align-items: center;
+
+
+                            gap: 35px;
+                            left: 5%;
+                            top: 78%;
+
+                            p {
+                                display: flex;
+
+                                align-items: center;
+                                justify-content: center;
+                                height: 44px;
+                                color: $colorblac;
+                                font-size: 20px;
+                                gap: 5px;
+
+                                small {
+                                    color: $colorgre
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+        &__bottom {
+            margin: 3% 0;
+            width: 70%;
+
+
+            &__container {
+                width: 80%;
+                display: flex;
+
+
+                gap: 32px;
+                height: 388px;
+
+
+                &__row {
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    gap: 32px;
+
+
+                    .col4 {
+
+                        display: flex;
+
+                        width: 290px;
+                        flex-direction: column;
+                        position: relative;
+                        height: 350px;
+                        border-radius: 10px;
+                        background-color: $colorF;
+
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+                        border: none;
+
+
+                        .wrapper {
+                            position: absolute;
+                            top: 3%;
+                            right: 5%;
+                            font-size: 24px;
+                        }
+
+
+                        h4 {
+                            position: absolute;
+                            color: $colorblac;
+
+                            width: 128px;
+                            height: 24px;
+                            top: 3%;
+                            left: 3%;
+
+                            font-size: 20px;
+                        }
+
+                        .firstp {
+                            width: 128px;
+                            height: 20px;
+                            font-size: 14px;
+                            color: $cardspcolors;
+                            position: absolute;
+                            top: 10%;
+                            left: 3%;
+                        }
+
+                        img {
+
+                            padding-left: 24px;
+
+                            position: absolute;
+                            width: 228px;
+                            top: 30%;
+                            left: 9%;
+
+                            height: 72px;
+                        }
+
+                        .buttonrent {
+                            display: flex;
+
+                            position: absolute;
+                            height: 50px;
+                            align-items: center;
+
+
+                            gap: 35px;
+                            left: 5%;
+                            top: 78%;
+
+                            p {
+                                display: flex;
+
+                                align-items: center;
+                                justify-content: center;
+                                height: 44px;
+                                color: $colorblac;
+                                font-size: 20px;
+                                gap: 5px;
+
+                                small {
+                                    color: $colorgre
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+        &__bottom2 {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 95%;
+
+            &__inside {
+                margin: 3% 0;
+                width: 734px;
+                height: 44px;
+                @include displeyspacebetween;
+
+
+                &__right {
+                    font-size: 14px;
+                    color: $colorgre;
+                    width: 140px;
+                    height: 44px;
+                    @include displeycenter;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .rightcarsphoto {
+        display: none;
+    }
+
+    .main__section2__container {
+        gap: 35px;
+        flex-direction: column;
+    }
+    .main__section3__bottom{
+        overflow: scroll;
+        width: 100%;
+    }
+
+   
+
+    .main__section4__middle{
+    width: 100%;
+  
+    }
+    .main__section4__middle__container{
+        
+        flex-wrap: wrap;
+      margin-bottom: 1200px;
+      
+    }
+    .main__section4__bottom{
+        width: 100%;
+    }
+    .main__section4__bottom__container{
+        margin-bottom: 1200px;
+       
+        flex-wrap: wrap;
+
+    }
+}

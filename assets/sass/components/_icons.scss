@@ -1,0 +1,64 @@
+@import '../utils/color';
+@import '../utils/mixin';
+.searchicon{
+    @include displeycenter;
+    margin: 10px 0px 10px 20px;
+    width: 24px;
+    height: 24px;
+}
+.frsticon{
+    @include displeycenter;
+    width: 44px;
+
+    a {
+        color: $colorgre;
+    }
+
+    background-color: $colorC3;
+    height: 44px;
+    border-radius: 90px;
+    border: 1px solid $colorrgb;
+    opacity: 0.8;
+}
+.scondicon{
+    @extend .frsticon;
+
+    position: relative;
+
+    .redicon {
+        color: $colorRed;
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        
+        right: 7px;
+        margin-bottom: 5px;
+        bottom: 31px;
+    }
+
+}
+.thirdicon{
+ @extend .frsticon;
+
+}
+
+
+.icons {
+    gap: 20px;
+    position: absolute;
+    top: 64%;
+    left: 5%;
+    display: flex;
+    color: $cardspcolors;
+
+    div {
+        @include displeycenter;
+        gap: 6px;
+
+    }
+}
+
+.fa-heart:hover{
+    cursor: pointer;
+}
+
